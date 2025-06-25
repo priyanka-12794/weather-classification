@@ -11,7 +11,7 @@ import pickle
 import streamlit as st
 
 #loading the saved models
-loaded_model= pickle.load(open('C:/internshipss/weather.sav','rb'))
+loaded_model= pickle.load(open('weather.sav','rb'))
 
 # Prediction function
 def weather_prediction(input_data):
